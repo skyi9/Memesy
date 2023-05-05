@@ -3,7 +3,7 @@
 const Navbar = () => {
     return (
         <>
-            <nav className="bg-white text-black flex justify-between items-center gap-16 px-40 py-2 h-28">
+            <nav className="bg-white text-black flex justify-between items-center gap-16 px-40 py-2 h-28 drop-shadow-md shadow-purple-700">
                 <div className="text-xl font-bold text-purple-700"><i className="fa-brands fa-meetup fa-xl mr-2" style={{ color: '#9900CC' }}></i> Memesy</div>
                 <div className="relative text-gray-600">
                     <input

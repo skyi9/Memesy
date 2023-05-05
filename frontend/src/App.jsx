@@ -8,11 +8,11 @@ const App = () => {
   return (
     <Router>
       <Navbar />
-      <div className="flex">
-        <div className="w-1/6 bg-gray-200 h-screen">
+      <div className="grid grid-cols-12">
+        <div className="col-span-2 h-screen">
           <Sidebar />
         </div>
-        <div className="w-5/6 bg-white h-screen">
+        <div className="col-span-10 h-screen">
           <Routes>
             <Route path={availableRoutes.home} element={<Home />} />
             <Route path={availableRoutes.trending} element={<div />} />
