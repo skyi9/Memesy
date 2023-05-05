@@ -1,9 +1,11 @@
-import Home from "./components/Home"
+import Home from "./Pages/Home"
+import Navbar from "./components/Navbar"
 import Sidebar from "./components/Sidebar"
 
 function App() {
   return (
     <>
+      <Navbar />
       <div className="flex">
         <div className="w-1/6 bg-gray-200 h-screen">
           <Sidebar />
