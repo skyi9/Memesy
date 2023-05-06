@@ -1,6 +1,8 @@
 import Home from "./Pages/Home";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar/Sidebar";
+import Login from "./Pages/Login"
+import SignUp from "./Pages/SignUp"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import availableRoutes from "./utils/routes/availableRoutes";
 
@@ -18,6 +20,9 @@ const App = () => {
             <Route path={availableRoutes.trending} element={<div />} />
             <Route path={availableRoutes.create} element={<div />} />
             <Route path={availableRoutes.pints} element={<div />} />
+            <Route path={availableRoutes.login} element={<Login />} />
+            <Route path={availableRoutes.signup} element={<SignUp />} />
+
           </Routes>
         </div>
       </div>
